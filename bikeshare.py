@@ -204,7 +204,7 @@ def main():
         time_stats(df) 
         station_stats(df) # Popular stations and trip
         trip_duration_stats(df) #Trip duration
-        user_stats(df)
+        user_stats(df) #User info
         display_raw_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
