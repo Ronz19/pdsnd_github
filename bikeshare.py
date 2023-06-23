@@ -201,8 +201,8 @@ def main():
             print (city, 'file name not exist, please import csv file and try again')
             break
 
-        time_stats(df)
-        station_stats(df)
+        time_stats(df) 
+        station_stats(df) # Popular stations and trip
         trip_duration_stats(df)
         user_stats(df)
         display_raw_data(df)
