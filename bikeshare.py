@@ -203,7 +203,7 @@ def main():
 
         time_stats(df) 
         station_stats(df) # Popular stations and trip
-        trip_duration_stats(df)
+        trip_duration_stats(df) #Trip duration
         user_stats(df)
         display_raw_data(df)
 
